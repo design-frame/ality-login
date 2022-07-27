@@ -1,7 +1,7 @@
 import React from "react"
-import "@components/card/card.sass"
+import "./card.sass"
 
-function Card({label}) {
+const Card: React.FC<{label:string}> = ({ label }) => {
     return (
         <div className="Card">{label}</div>
     )
