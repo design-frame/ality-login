@@ -1,9 +1,9 @@
 import React from "react"
 import "@components/card/card.sass"
 
-function Card() {
+function Card({label}) {
     return (
-        <div className="Card">Card</div>
+        <div className="Card">{label}</div>
     )
 }
 

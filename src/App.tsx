@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="App">
             New Content Here...
-            <Card />
+            <Card label={"Some Content"}/>
         </div>
     )
 }
