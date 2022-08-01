@@ -6,8 +6,7 @@ function App() {
     const text = "Some content"
     return (
         <div className="App">
-            New Content Here...
-            <Card label={text}/>
+            
         </div>
     )
 }
