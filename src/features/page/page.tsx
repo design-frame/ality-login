@@ -1,7 +1,6 @@
 import React from "react"
 import "./Page.sass"
-
-type Component = JSX.Element
+import { Component } from "../../types"
 
 const Page: React.FC<{content: Component}> = ({content}) => {
     return (
